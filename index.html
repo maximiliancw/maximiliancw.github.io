@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>w0lf | Homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta property="og:title" content="Maximilian Wolf (w0lf)" />
+  <meta property="og:description" content="Max is an entrepreneur, a web developer and a lousy philosopher. Welcome to his internet home!" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="Maximilian Wolf (w0lf)">
+  <meta name="twitter:description" content="Max is an entrepreneur, a web developer and a lousy philosopher. Welcome to his internet home!">
+  <meta name="twitter:image" content="">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+  <style>
+    /* For best practice, move CSS below to an external CSS file. */
+    @keyframes fadeinall {
+    0% {
+      opacity: 1; }
+    97% {
+      opacity: 0; }
+    98% {
+      opacity: 0;
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
+    99% {
+      opacity: 0;
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%); }
+    100% {
+      opacity: 0;
+      z-index: -1; } }
+    #fadein {
+      opacity: 1;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+      background-color: #fff;
+      z-index: 999;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation: fadeinall 1s normal both;
+      animation: fadeinall 1s normal both;
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s; }
+  </style>
+  <style>
+    #profile-image {
+      border-radius: 30px;
+      box-shadow: var(--card-box-shadow);
+    }
+  </style>
+</head>
+<body>
+  <div id="fadein"></div>
+  <header class="container">
+    <hgroup style="text-align: center">
+      <h1 style="letter-spacing: 5px;">MAXIMILIAN CARL WOLF</h1>
+      <h2>Head of Startups & Entrepreneurship @ CISPA · Founder · Web Developer</h2>
+    </hgroup>
+  </header><!-- ./ Header -->
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Preview -->
+    <section id="preview">
+      <article>
+        <div class="grid">
+        <div>
+          <h2>About</h2>
+          <p>Hi, I'm Max - welcome to my personal homepage!</p>
+          <p>Since 1994, I'm trying to not be bored. My main area of activity is the German state of Saarland.</p>
+          <p>I am enthusiastic about authenticity and creativity - two of the main ingredients for becoming an entrepreneur.
+            This lead me to abandon academia rather early and to instead start my first own company in 2019: a not-so-innovative
+            digital service provider called <b><a href="https://innovinati.com">INNOVINATI</a></b>. </p>
+            <p>Since then, I've co-founded a handful of ventures and joined <b><a href="https://cispa.de/en/people/c01mawo">CISPA Helmholtz Center for
+              Information Security</a></b> in 2020, where I'm currently working as <i>Head of Startups & Entrepreneurship</i>. While still studying, I worked as an intern
+              for <b>Software AG</b> (2015-2017) and <b>Pricewaterhouse Coopers</b> (2018-2019).
+          </p>        
+          <blockquote>
+            One Day or Day One - you decide.
+            <footer>
+              <cite>- Unknown</cite>
+            </footer>
+          </blockquote>
+          
+        </div>
+        <img id="profile-image" src="./image003.jpg">
+      </div>
+      <div style="text-align:center; margin-top: 100px">
+        <h3>Social</h3>
+        <div class="grid">
+          <a href="https://linkedin.com/in/maxcw" role="button" style="margin: 5px">LinkedIn</a>
+          <a href="https://github.com/maximiliancw" role="button" style="margin: 5px">GitHub</a>
+          <a href="" role="button" aria-disabled="true"  style="margin: 5px">Twitter</a>
+        </div>
+      </div>
+      </article>
+    </section><!-- ./ Preview -->
+
+    <!-- CV -->
+    <section id="cv">
+      <h2>Curriculum Vitae</h2>
+      <h3>Career</h3>
+      <details>
+        <summary>CISPA Helmholtz Center for Information Security<br><i>2020-today</i></summary>
+        <ul>
+          <li>Head of Startups & Entrepreneurship (2022 - today)</li>
+          <li>Technical Consultant (2021 - 2022)</li>
+          <li>Business Development Manager (2020 - 2021)</li>
+        </ul>
+      </details>
+      <details >
+        <summary>INNOVINATI<br><i>2019-today</i></summary>
+        <p>Founder & Managing Director</p>
+      </details>
+      <details >
+        <summary>University of Saarland<br><i>2019</i></summary>
+        <p>Teaching assistant for "Web Technologies" course @ Chair of Prof. Dr. Wolfgang Maaß</p>
+      </details>
+      <details >
+        <summary>Pricewaterhouse Coopers<br><i>2018-2019</i></summary>
+        <p>Intern @ Public Management Consulting</p>
+      </details>
+      <details >
+        <summary>Software AG<br><i>2015-2017</i></summary>
+        <p>Intern @ ARIS Product Management</p>
+      </details>
+      <h3>Education</h3>
+      <details >
+        <summary>University of Saarland<br><i>2020-2021</i></summary>
+        <p>M.Sc. Information Systems (no degree)</p>
+      </details>
+      <details >
+        <summary>University of Saarland<br><i>2014-2019</i></summary>
+        <p>B.Sc. Information Systems</p>
+      </details>
+      <details >
+        <summary>Lycée Franco-Allemand<br><i>2004-2012</i></summary>
+        <p>French-German High School diploma</p>
+      </details>
+      <h3>Extracurricular</h3>
+      <ul>
+        <li>Head of the Works Council @ CISPA Helmholtz Center for Information Security (since 2022)</li>
+        <li>Member @ Chaos Computer Club e.V. (since 2020)</li>
+        <li>Fellow @ Junior Consultant Network (JCNetwork) e.V. (2017-2018)</li>
+        <li>Board Member @ Consiglia e.V. (2016-2017)</li>
+        <li>Junior Student @ University of Saarland (2011-2012)</li>
+      </ul>
+    </section><!-- ./ CV -->
+
+  </main><!-- ./ Main -->
+
+  <!-- Footer -->
+  <footer class="container">
+    <small>Copyright (C) Maximilian Carl Wolf</small>
+  </footer><!-- ./ Footer -->
+
+</body>
+</html>
