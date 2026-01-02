@@ -1,0 +1,94 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon
+
+# Thumbnails
+._*
+
+# macOS metadata
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# Node and npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Python
+__pycache__/
+.env
+.venv
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# JetBrains/PyCharm/IDEA
+.idea/
+*.iml
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Test, Coverage, and CI
+coverage/
+*.cover
+*.pyc
+*.pyo
+*.pyd
+.cache
+.tox
+.nox
+pytest_cache/
+htmlcov/
+
+# Editor directories and files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
