@@ -543,35 +543,45 @@
         color: var(--text-muted);
       }
 
-      /* Languages */
-      .languages {
+      /* Languages Card */
+      .languages-card {
+        grid-column: span 1;
+      }
+
+      .languages-grid {
         display: flex;
-        gap: 24px;
-        flex-wrap: wrap;
-        margin-top: 40px;
+        flex-direction: column;
+        gap: 12px;
       }
 
       .language-item {
         display: flex;
         align-items: center;
         gap: 12px;
-        padding: 16px 24px;
-        background: var(--bg-card);
+        padding: 12px 16px;
+        background: rgba(34, 211, 238, 0.05);
         border: 1px solid var(--border);
-        border-radius: 12px;
+        border-radius: 10px;
+        transition: all 0.2s ease;
+      }
+
+      .language-item:hover {
+        background: rgba(34, 211, 238, 0.1);
+        border-color: rgba(34, 211, 238, 0.3);
       }
 
       .language-flag {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
 
       .language-info strong {
         display: block;
         font-weight: 500;
+        font-size: 0.95rem;
       }
 
       .language-info span {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         color: var(--text-muted);
       }
 
@@ -1341,6 +1351,32 @@
                 <span class="skill-tag">Redis</span>
               </div>
             </div>
+            <div class="skill-category languages-card">
+              <h3>Languages</h3>
+              <div class="languages-grid">
+                <div class="language-item">
+                  <span class="language-flag">🇩🇪</span>
+                  <div class="language-info">
+                    <strong>German</strong>
+                    <span>Native (C2)</span>
+                  </div>
+                </div>
+                <div class="language-item">
+                  <span class="language-flag">🇬🇧</span>
+                  <div class="language-info">
+                    <strong>English</strong>
+                    <span>Professional (C1/C2)</span>
+                  </div>
+                </div>
+                <div class="language-item">
+                  <span class="language-flag">🇫🇷</span>
+                  <div class="language-info">
+                    <strong>French</strong>
+                    <span>Fluent (C1)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1482,30 +1518,6 @@
               <h3>Helmholtz Leadership Academy</h3>
               <div class="institution">"Führung übernehmen" Program</div>
               <div class="year">2024 – 2025</div>
-            </div>
-          </div>
-
-          <div class="languages">
-            <div class="language-item">
-              <span class="language-flag">🇩🇪</span>
-              <div class="language-info">
-                <strong>German</strong>
-                <span>Native (C2)</span>
-              </div>
-            </div>
-            <div class="language-item">
-              <span class="language-flag">🇬🇧</span>
-              <div class="language-info">
-                <strong>English</strong>
-                <span>Professional (C1/C2)</span>
-              </div>
-            </div>
-            <div class="language-item">
-              <span class="language-flag">🇫🇷</span>
-              <div class="language-info">
-                <strong>French</strong>
-                <span>Fluent (C1)</span>
-              </div>
             </div>
           </div>
         </div>
